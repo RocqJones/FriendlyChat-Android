@@ -1,4 +1,4 @@
-package com.google.firebase.codelab.friendlychat;
+package com.intoverflown.friendlychat;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;

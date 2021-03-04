@@ -1,4 +1,4 @@
-package com.google.firebase.codelab.friendlychat;
+package com.intoverflown.friendlychat;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -30,13 +30,13 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.codelab.friendlychat.databinding.ActivityMainBinding;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.intoverflown.friendlychat.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 

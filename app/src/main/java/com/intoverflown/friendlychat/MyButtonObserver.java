@@ -1,4 +1,4 @@
-package com.google.firebase.codelab.friendlychat;
+package com.intoverflown.friendlychat;
 
 import android.text.Editable;
 import android.text.TextWatcher;

@@ -6,7 +6,7 @@ import android.widget.Button;
 
 public class MyButtonObserver implements TextWatcher {
 
-    private Button mButton;
+    private final Button mButton;
 
     public MyButtonObserver(Button button) {
         this.mButton = button;
@@ -17,11 +17,7 @@ public class MyButtonObserver implements TextWatcher {
 
     @Override
     public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-        if (charSequence.toString().trim().length() > 0) {
-            mButton.setEnabled(true);
-        } else {
-            mButton.setEnabled(false);
-        }
+        mButton.setEnabled(charSequence.toString().trim().length() > 0);
     }
 
     @Override
